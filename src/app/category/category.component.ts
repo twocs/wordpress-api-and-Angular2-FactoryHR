@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PostsService } from '../services/posts.service';
-export interface Post {
-  title: string;
-  content: string;
-  date: string;
-}
+import { Post, PostsService } from '../services/posts.service';
+
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
